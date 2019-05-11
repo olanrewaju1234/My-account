@@ -20,6 +20,11 @@
        padding-right: 0px;
     }
 }
+@media (max-width: 490px) {
+    .navbar-toggler{
+       margin-left: -5px;
+    }
+}
 
 .firstinput {
     width: 85%;
@@ -141,7 +146,7 @@
 }
 .anaconda {
     padding: 10px;
-    width: 400px;
+    width: 300px;
     border-radius: 2px;
     font-size: 1.2rem;
 }
@@ -206,7 +211,7 @@ ol {
        padding-left: 0px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 490px) {
     #footer{
        padding-left: 0px;
     }
@@ -241,11 +246,12 @@ ol {
 .div {
     border: 1px  black;
     border-radius: 25px;
-    padding: 7px;
+    padding: 5px;
     background: white;
 }
 .vid {
     color: black;
+    padding: 7px;
 }
 .vid:hover {
     color: black;
@@ -279,7 +285,7 @@ ol {
        padding-right: 0px;
     }
 }
-@media (max-width: 502px) {
+@media (max-width: 492px) {
     .ulicon{
        padding-left: 0px;
     }
@@ -289,7 +295,7 @@ ol {
        padding-left: 0px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     .conda{
        padding-left: 0px;
     }
@@ -310,9 +316,24 @@ ol {
        padding-left: 0px;
     }
 }
+@media (max-width: 499px) {
+    .vib{
+       padding-left: 0px;
+    }
+}
 @media (max-width: 522px) {
     .pib{
        padding-left: 119px;
+    }
+}
+@media (max-width: 499px) {
+    .pib{
+       padding-left: 98px;
+    }
+}
+@media (max-width: 499px) {
+    .dip{
+       padding-left: 30px;
     }
 }
 .container-fluid {
@@ -329,4 +350,9 @@ ol {
 .cbox {
     margin-right: 7px;
 }
-
+.navbar-toggler {
+    padding-top: 2px;
+}
+.toggler {
+    margin-bottom: 0px;
+}
