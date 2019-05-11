@@ -22,7 +22,7 @@
 }
 @media (max-width: 490px) {
     .navbar-toggler{
-       margin-left: -5px;
+       margin-left: -30px;
     }
 }
 
@@ -246,12 +246,11 @@ ol {
 .div {
     border: 1px  black;
     border-radius: 25px;
-    padding: 5px;
+    padding: 7px;
     background: white;
 }
 .vid {
     color: black;
-    padding: 7px;
 }
 .vid:hover {
     color: black;
@@ -318,7 +317,7 @@ ol {
 }
 @media (max-width: 499px) {
     .vib{
-       padding-left: 0px;
+       padding-left: -20px;
     }
 }
 @media (max-width: 522px) {
@@ -328,12 +327,12 @@ ol {
 }
 @media (max-width: 499px) {
     .pib{
-       padding-left: 98px;
+       padding-left: 50px;
     }
 }
 @media (max-width: 499px) {
     .dip{
-       padding-left: 30px;
+       padding-left: 35px;
     }
 }
 .container-fluid {
