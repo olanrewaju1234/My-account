@@ -25,6 +25,11 @@
        margin-left: -30px;
     }
 }
+@media (max-width: 490px) {
+    .navbar{
+       margin-left: -20px;
+    }
+}
 
 .firstinput {
     width: 85%;
@@ -317,7 +322,7 @@ ol {
 }
 @media (max-width: 499px) {
     .vib{
-       padding-left: -20px;
+       padding-left: -50px;
     }
 }
 @media (max-width: 522px) {
@@ -327,7 +332,7 @@ ol {
 }
 @media (max-width: 499px) {
     .pib{
-       padding-left: 50px;
+       padding-left: 30px;
     }
 }
 @media (max-width: 499px) {
