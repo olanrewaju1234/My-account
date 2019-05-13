@@ -20,16 +20,7 @@
        padding-right: 0px;
     }
 }
-@media (max-width: 490px) {
-    .navbar-toggler{
-       margin-left: -30px;
-    }
-}
-@media (max-width: 490px) {
-    .navbar{
-       margin-left: -20px;
-    }
-}
+
 
 .firstinput {
     width: 85%;
@@ -359,4 +350,9 @@ ol {
 }
 .toggler {
     margin-bottom: 0px;
+}
+title {
+    color: white;
+    background: black;
+    padding: 5px;
 }
